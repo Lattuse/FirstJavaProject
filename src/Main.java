@@ -27,9 +27,15 @@ public class Main {
         telegram.addUser(sabina);
         telegram.addPost(post_2);
 
+        System.out.println("\n");
         System.out.println(telegram);
+        System.out.println("\n");
         System.out.println(grisha);
         System.out.println(post_1);
+        System.out.println("\n");
+        System.out.println(sabina);
+        System.out.println(post_2);
+        System.out.println("\n");
         System.out.println(telegram.getPosts());
     }
 
